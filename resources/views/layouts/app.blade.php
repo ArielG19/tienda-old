@@ -36,7 +36,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/product') }}">
-                    Store
+                    Tienda
                 </a>
             </div>
 
@@ -44,7 +44,7 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}"></a></li>
-                    <li><a href="{{ url('/productos') }}">Productos</a></li>
+                    <li><a href="{{ url('/productos') }}">Agregar productos</a></li>
 
                 </ul>
 

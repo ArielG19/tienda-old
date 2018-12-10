@@ -19,7 +19,7 @@
 							<div class="form-group">
 								<label for="name">Name</label>
 								<!--agregamos name="" despues de crear el modelo order -->
-								<input type="text" id="name" class="form-control" name="name" required>
+								<input type="text" id="name" class="form-control" placeholder="Nombre" name="name" required>
 							</div>
 						</div>
 
@@ -27,7 +27,7 @@
 							<div class="form-group">
 								<label for="address">Adress</label>
 								<!--agregamos name="" despues de crear el modelo order -->
-								<input type="text" id="address" class="form-control" name="address" required>
+								<input type="text" id="address" class="form-control" placeholder="Direccion" name="address" required>
 							</div>
 						</div>
 						
@@ -35,14 +35,14 @@
 						<div class="col-xs-12">
 							<div class="form-group">
 								<label for="card-name">Card holder name</label>
-								<input type="text" id="card-name" class="form-control" required>
+								<input type="text" id="card-name" class="form-control" placeholder="Nombre del titular de la tarjeta" required>
 							</div>
 						</div>
 
 						<div class="col-xs-12">
 							<div class="form-group">
 								<label for="card-number">Credit card number</label>
-								<input type="text" id="card-number" class="form-control" required>
+								<input type="text" id="card-number" class="form-control" placeholder="4242-4242-4242-4242" required>
 							</div>
 						</div>
 
@@ -51,13 +51,13 @@
 								<div class="col-xs-6">
 									<div class="form-group">
 										<label for="card-expiry-month">Expiration month</label>
-										<input type="text" id="card-expiry-month" class="form-control" required>
+										<input type="text" id="card-expiry-month" class="form-control" placeholder="10" required>
 									</div>
 								</div>
 									<div class="col-xs-6">
 										<div class="form-group">
 											<label for="card-expiry-year">Expiration year</label>
-											<input type="text" id="card-expiry-year" class="form-control" required>
+											<input type="text" id="card-expiry-year" class="form-control" placeholder="2023" required>
 										</div>
 									</div>
 							</div>
@@ -66,7 +66,7 @@
 						<div class="col-xs-12">
 							<div class="form-group">
 								<label for="card-cvc">CVC</label>
-								<input type="text" id="card-cvc" class="form-control" required>
+								<input type="text" id="card-cvc" class="form-control" placeholder="123" required>
 							</div>
 						</div>
 						{{csrf_field()}}
